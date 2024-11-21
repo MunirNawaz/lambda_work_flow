@@ -44,5 +44,5 @@ jobs:
           cd lambda
           zip -r lambda.zip .
           aws lambda update-function-code \
-            --function-name my_lambda_cicd_tst \
+            --function-name my_Lambda_cicd_tst \
             --zip-file fileb://lambda.zip
