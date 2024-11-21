@@ -11,7 +11,7 @@ on:
 
 jobs:
   # Define the job that will deploy the Lambda function
-  deploy-lambda:
+  lambda:
     runs-on: ubuntu-latest
 
     steps:
