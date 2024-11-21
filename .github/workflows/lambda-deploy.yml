@@ -8,7 +8,7 @@ on:
     branches:
       - main
     paths:
-      - "lambda/"
+      - "lambda/**"
 
 jobs:
   # Define the job that will deploy the Lambda function
