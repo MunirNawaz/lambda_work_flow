@@ -1,3 +1,4 @@
+---
 # Name of the workflow
 name: Deploy AWS Lambda Workflow
 
@@ -11,7 +12,7 @@ on:
 
 jobs:
   # Define the job that will deploy the Lambda function
-  lambda:
+  lambda-deploy:
     runs-on: ubuntu-latest
 
     steps:
